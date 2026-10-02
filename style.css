@@ -17,6 +17,7 @@
 }
 .text{
     font: size 12px;
+    justify-content: center;
 }
 .det{
     display:flex;
@@ -27,6 +28,18 @@
     align-items: right;
 }
 .details{
-        border-bottom: 1px solid #bdbdbe;
+        padding-top: 50px;
+        margin-top: 20px;
+}
+
+.bio{
+    border-bottom: 1px solid #a1a1a1;
+}
+.images{
+    display:flex;
+    align-items: center; 
+    gap:90px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
